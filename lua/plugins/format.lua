@@ -30,6 +30,8 @@ return {
 				async = true,
 				timeout_ms = 5000,
 			})
+
+			print("File formatted!")
 		end, { desc = "Format file atau range (visual)" })
 	end,
 }
