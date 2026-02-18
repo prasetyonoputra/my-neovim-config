@@ -21,6 +21,7 @@ return {
 			filters = {
 				dotfiles = false,
 				git_ignored = false,
+				custom = { "node_modules", "^\\.git$" },
 			},
 		})
 
